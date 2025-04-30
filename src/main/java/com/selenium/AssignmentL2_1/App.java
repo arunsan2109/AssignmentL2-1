@@ -18,4 +18,7 @@ public class App {
     public int subtrat(int x, int y){
         return x-y;
     }
+    public int getMultiply(int x, int y){
+            return x*y;
+    }
 }
