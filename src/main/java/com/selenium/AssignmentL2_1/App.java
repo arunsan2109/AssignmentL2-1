@@ -6,6 +6,10 @@ package com.selenium.AssignmentL2_1;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
+<<<<<<< HEAD
         System.out.println("New Line Added in Remote main!!!");
+=======
+        System.out.println("New Line added in stage!");
+>>>>>>> 98df66f (conflict)
     }
 }
