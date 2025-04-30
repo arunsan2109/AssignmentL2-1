@@ -6,5 +6,6 @@ package com.selenium.AssignmentL2_1;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World! Getting the remote main updated");
+        System.out.println("Remote Origin update");
     }
 }
