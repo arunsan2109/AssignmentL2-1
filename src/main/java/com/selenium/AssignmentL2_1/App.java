@@ -9,5 +9,6 @@ public class App {
         System.out.println("New Line added in stage!");
         System.out.println("New Line added in Remote New!");
         System.out.println("New Line added in Remote New!");
+        System.out.println("Hello World!");
     }
 }
