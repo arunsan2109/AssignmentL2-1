@@ -6,9 +6,5 @@ package com.selenium.AssignmentL2_1;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello World!");
-        System.out.println("New Line Added in Remote main!!!");
-        System.out.println("New Line added in stage!");
-        System.out.println("New Line added in Remote New!");
-        System.out.println("New Line added in Remote New!");
     }
 }
