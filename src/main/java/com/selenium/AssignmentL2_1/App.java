@@ -15,4 +15,7 @@ public class App {
     public int getBalance(int x, int y){
         return x+y;
     }
+    public int subtrat(int x, int y){
+        return x-y;
+    }
 }
