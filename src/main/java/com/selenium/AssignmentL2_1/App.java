@@ -11,4 +11,8 @@ public class App {
         System.out.println("New Line added in Remote New!");
         System.out.println("Hello World!");
     }
+
+    public int getBalance(int x, int y){
+        return x+y;
+    }
 }
