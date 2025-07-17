@@ -8,6 +8,6 @@
 			  <include name="demoWebShop"/>  
 		  </methods>
 		  </class>
-    </classes>
+    </classes> <!-- Classes -->
   </test> <!-- Test -->
 </suite> <!-- Suite -->

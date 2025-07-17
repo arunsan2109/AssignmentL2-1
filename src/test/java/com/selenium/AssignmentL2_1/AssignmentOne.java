@@ -1,5 +1,6 @@
 package com.selenium.AssignmentL2_1;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -64,7 +65,7 @@ public class AssignmentOne {
 
 	// Function to click element
 	public void getClick(By element) {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		getWait(element);
 		if (driver.findElement(element).isEnabled()) {
 			driver.findElement(element).click();
@@ -73,13 +74,13 @@ public class AssignmentOne {
 
 	// Explicit wait
 	public void getWait(By element) {
-		WebDriverWait driverWait = new WebDriverWait(driver, 20);
+		WebDriverWait driverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
 		driverWait.until(ExpectedConditions.elementToBeClickable(driver.findElement(element)));
 	}
 
 	// Function to Return Text
 	public String getText(By element) {
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		getWait(element);
 		String text = driver.findElement(element).getText().trim();
 		return text;
